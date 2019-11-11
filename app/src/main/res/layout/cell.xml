@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="2dp">
+
+    <TextView
+            android:text="Hero"
+            android:padding="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name_text"/>
+    <TextView
+            android:text="Bio"
+            android:layout_width="match_parent"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:padding="5dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bio_text"/>
+</LinearLayout>
